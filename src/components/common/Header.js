@@ -1,7 +1,5 @@
 import React, { Component }from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { Constants } from 'expo';
-
 
 const styles = StyleSheet.create({
   sim: {
@@ -25,7 +23,7 @@ class Header extends React.Component{
   render () {
     return(
       <View style={styles.background}>
-      <Text style={styles.sim}>Hello:{this.props.name}</Text>
+      <Text style={styles.sim}>Authentication{this.props.name}</Text>
       </View>
     );
   }
